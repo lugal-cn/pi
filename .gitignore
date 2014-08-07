@@ -8,7 +8,7 @@ var/cache/*
 www/asset/*
 www/setup/*
 www/upload/*
-www/setup/asset/*
+www/upload/_tmp/*
 
 # Ignore settings files.
 www/boot.php
