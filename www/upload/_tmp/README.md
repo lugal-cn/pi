@@ -1,1 +1,0 @@
-Directly for temporary storage of uploads, don't use for permanent purposes.
