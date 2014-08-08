@@ -1,0 +1,1 @@
+0:{"admin":{"type":"Standard","options":{"prefix":"\/admin","defaults":{"module":"system"}},"priority":"100"},"api":{"type":"Api","options":{"prefix":"\/api","defaults":{"module":"system"}},"priority":"100"},"feed":{"type":"Feed","options":{"prefix":"\/feed","defaults":{"module":"system"}},"priority":"100"}}

@@ -15,10 +15,10 @@ return array(
     // application configs
     'config'    => array(
         // Site specific identifier, should not change it after installation
-        'identifier'    => 'siteidentifier',
+        'identifier'    => 'pi7010',
 
         // Salt for hashing
-        'salt'          => 'bf11488eed7286c61db279f2c02af5f0',
+        'salt'          => '61cd4e37dc0e58eb72b607798456f526',
 
         // Run mode. Potential values:
         // production - for production;
@@ -36,7 +36,7 @@ return array(
     // System persist storage configs
     'persist'   => array(
         'storage'   => 'filesystem',
-        'namespace' => 'apcns',
+        'namespace' => 'da9e',
         'options'   => array(
         ),
     ),

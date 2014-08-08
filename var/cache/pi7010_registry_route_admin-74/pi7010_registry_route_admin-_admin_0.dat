@@ -1,0 +1,1 @@
+0:{"admin":{"type":"Standard","options":{"prefix":"\/admin","defaults":{"module":"system"}},"priority":"100"}}

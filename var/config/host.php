@@ -25,11 +25,11 @@ return array(
     // If URI is a relative one then www root URI will be prepended
     'uri'       => array(
         // WWW root URI
-        'www'       => 'http://pi.tld',
+        'www'       => 'http://127.0.0.1/lu/pi/www',
         // URI to access uploads directory
-        'upload'    => 'http://pi.tld/upload',
+        'upload'    => 'http://127.0.0.1/lu/pi/www/upload',
         // URI to access static files directory
-        'static'    => 'http://pi.tld/static',
+        'static'    => 'http://127.0.0.1/lu/pi/www/static',
     ),
 
     // Paths to resources
@@ -37,35 +37,35 @@ return array(
     'path'      => array(
         // Sharable paths
         // WWW root path, dependent sub folders: `script`, `public`
-        'www'       => 'path/to/pi-application/www',
+        'www'       => 'D:/xampp/htdocs/lu/pi/www',
         // Library directory
-        'lib'       => 'path/to/pi-framework/lib',
+        'lib'       => 'D:/xampp/htdocs/lu/pi/lib',
         // User extension directory
-        'usr'       => 'path/to/pi-framework/usr',
+        'usr'       => 'D:/xampp/htdocs/lu/pi/usr',
         // Application module directory
-        'module'    => 'path/to/pi-framework/usr/module',
+        'module'    => 'D:/xampp/htdocs/lu/pi/usr/module',
         // Theme directory
-        'theme'     => 'path/to/pi-framework/usr/theme',
+        'theme'     => 'D:/xampp/htdocs/lu/pi/usr/theme',
         // Path to static files directory
-        'static'    => 'path/to/pi-framework/www/static',
+        'static'    => 'D:/xampp/htdocs/lu/pi/www/static',
         // Path to vendor library directory: default as `lib/vendor`
-        'vendor'    => 'path/to/pi-framework/lib/vendor',
+        'vendor'    => 'D:/xampp/htdocs/lu/pi/lib/vendor',
         // Path to module custom directory: default as `usr/custom`
-        'custom'    => 'path/to/pi-framework/usr/custom',
+        'custom'    => 'D:/xampp/htdocs/lu/pi/usr/custom',
 
         // Application specific paths
         // Path to uploads directory
-        'upload'    => 'path/to/pi-application/www/upload',
+        'upload'    => 'D:/xampp/htdocs/lu/pi/www/upload',
         // User data directory
-        'var'       => 'path/to/pi-application/var',
+        'var'       => 'D:/xampp/htdocs/lu/pi/var',
 
         // Sub-paths of var
         // Path to global collective configuration directory
-        'config'    => 'path/to/pi-application/var/config',
+        'config'    => 'D:/xampp/htdocs/lu/pi/var/config',
         // Path to cache files directory
-        'cache'     => 'path/to/pi-application/var/cache',
+        'cache'     => 'D:/xampp/htdocs/lu/pi/var/cache',
         // Path to logs directory
-        'log'       => 'path/to/pi-application/var/log',
+        'log'       => 'D:/xampp/htdocs/lu/pi/var/log',
     ),
 
     // Paths dependent on upper paths

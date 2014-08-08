@@ -14,7 +14,7 @@ return array(
     // Connection configs, to be passed to driver
     'connection'    => array(
         'driver'    => 'pdo',
-        'dsn'       => 'mysql:host=localhost;dbname=pi',
+        'dsn'       => 'mysql:host=localhost;dbname=pi_lu',
         'username'  => 'root',
         'password'  => '',
 
@@ -36,9 +36,9 @@ return array(
     ),
 
     // Database schema
-    'schema'        => 'pi',
+    'schema'        => 'pi_lu',
     // Prefix for all tables
-    'table_prefix'  => 'pcc5_',
+    'table_prefix'  => 'p671_',
     // Prefix for system tables
     // module identifiers will be used for its tables, respectively
     'core_prefix'   => 'core_'
